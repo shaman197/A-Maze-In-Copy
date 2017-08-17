@@ -1,0 +1,1199 @@
+fileFormatVersion: 2
+guid: 5851b8b9a58b0bb4ea762f8e34bcce00
+timeCreated: 1494082744
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bear
+    100002: BehindLegLeft1
+    100004: BehindLegLeft2
+    100006: BehindLegRight1
+    100008: BehindLegRight2
+    100010: BehindPawLeft
+    100012: BehindPawLeft_end
+    100014: BehindPawLeft_end_end
+    100016: BehindPawRight
+    100018: BehindPawRight_end
+    100020: BehindPawRight_end_end
+    100022: Body
+    100024: Head
+    100026: LegLeft1
+    100028: LegLeft2
+    100030: LegRight1
+    100032: LegRight2
+    100034: mouth
+    100036: mouth_end
+    100038: mouth_end_end
+    100040: //RootNode
+    100042: PawLeft
+    100044: PawLeft_end
+    100046: PawLeft_end_end
+    100048: PawRight
+    100050: PawRight_end
+    100052: PawRight_end_end
+    100054: SkeletonBear
+    400000: Bear
+    400002: BehindLegLeft1
+    400004: BehindLegLeft2
+    400006: BehindLegRight1
+    400008: BehindLegRight2
+    400010: BehindPawLeft
+    400012: BehindPawLeft_end
+    400014: BehindPawLeft_end_end
+    400016: BehindPawRight
+    400018: BehindPawRight_end
+    400020: BehindPawRight_end_end
+    400022: Body
+    400024: Head
+    400026: LegLeft1
+    400028: LegLeft2
+    400030: LegRight1
+    400032: LegRight2
+    400034: mouth
+    400036: mouth_end
+    400038: mouth_end_end
+    400040: //RootNode
+    400042: PawLeft
+    400044: PawLeft_end
+    400046: PawLeft_end_end
+    400048: PawRight
+    400050: PawRight_end
+    400052: PawRight_end_end
+    400054: SkeletonBear
+    4300000: Bear
+    7400000: attack
+    7400002: death
+    7400004: eat
+    7400006: hurt
+    7400008: Idle
+    7400010: Idle2
+    7400012: Roar
+    7400014: run
+    7400016: Sitting idle
+    7400018: walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Bear
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - SkeletonBear
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: SkeletonBear|attack
+      firstFrame: 0
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: SkeletonBear|death
+      firstFrame: 0
+      lastFrame: 86
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: SkeletonBear|eat
+      firstFrame: 0
+      lastFrame: 132
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt
+      takeName: SkeletonBear|hurt
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: SkeletonBear|Idle
+      firstFrame: 0
+      lastFrame: 320
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle2
+      takeName: SkeletonBear|Idle2
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Roar
+      takeName: SkeletonBear|Roar
+      firstFrame: 0
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: SkeletonBear|run
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sitting idle
+      takeName: SkeletonBear|Sitting idle
+      firstFrame: 0
+      lastFrame: 246
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: SkeletonBear|walk
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bear
+        weight: 1
+      - path: SkeletonBear
+        weight: 1
+      - path: SkeletonBear/Body
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegLeft1/BehindLegLeft2/BehindPawLeft/BehindPawLeft_end/BehindPawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/BehindLegRight1/BehindLegRight2/BehindPawRight/BehindPawRight_end/BehindPawRight_end_end
+        weight: 1
+      - path: SkeletonBear/Body/Head
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end
+        weight: 1
+      - path: SkeletonBear/Body/Head/mouth/mouth_end/mouth_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end
+        weight: 1
+      - path: SkeletonBear/Body/LegLeft1/LegLeft2/PawLeft/PawLeft_end/PawLeft_end_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end
+        weight: 1
+      - path: SkeletonBear/Body/LegRight1/LegRight2/PawRight/PawRight_end/PawRight_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Body
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BehindLegLeft1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BehindLegRight1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BehindLegLeft2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BehindLegRight2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BehindPawLeft
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BehindPawRight
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mouth
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Panda(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear
+      parentName: Panda(Clone)
+      position: {x: 0.05153873, y: -0.00000054726246, z: -0.06546637}
+      rotation: {x: 0.000000057601163, y: 0.7071068, z: 0.7071068, w: 0.00000005760116}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: SkeletonBear
+      parentName: Panda(Clone)
+      position: {x: -0.2692306, y: 4.1331143, z: -0.49773306}
+      rotation: {x: 8.659561e-17, y: 0.7071068, z: 0.7071068, w: -8.7157646e-33}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: SkeletonBear
+      position: {x: -0.40901172, y: -2.4205282, z: 0.5248308}
+      rotation: {x: 0.056088045, y: 0.00029004694, z: -0.007787981, w: 0.99839544}
+      scale: {x: 0.99999964, y: 0.9999997, z: 0.9999995}
+    - name: BehindLegLeft1
+      parentName: Body
+      position: {x: 1.8281614, y: -0.38074544, z: -0.5447486}
+      rotation: {x: 0.5647326, y: -0.46112242, z: 0.5341878, w: -0.42788622}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1.0000001}
+    - name: BehindLegLeft2
+      parentName: BehindLegLeft1
+      position: {x: -0.0000002635643, y: 2.1130896, z: 0.000000014901161}
+      rotation: {x: -0.022276213, y: -0.7076471, z: -0.06984001, w: 0.70275307}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: BehindPawLeft
+      parentName: BehindLegLeft2
+      position: {x: -0.021553023, y: 1.748308, z: 0.09422931}
+      rotation: {x: 0.7359651, y: 0.00000009192626, z: -0.00000042941525, w: 0.67701954}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: BehindPawLeft_end
+      parentName: BehindPawLeft
+      position: {x: -0.000000004824031, y: 0.9499628, z: -0.00000024801074}
+      rotation: {x: 0.0000000037252903, y: -8.881785e-15, z: -5.551115e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BehindPawLeft_end_end
+      parentName: BehindPawLeft_end
+      position: {x: -0, y: 0.9499629, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BehindLegRight1
+      parentName: Body
+      position: {x: -1.294658, y: -0.42941582, z: -0.54382896}
+      rotation: {x: 0.5647326, y: -0.4611226, z: 0.5341877, w: -0.4278862}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1.0000002}
+    - name: BehindLegRight2
+      parentName: BehindLegRight1
+      position: {x: 0.00000033155084, y: 2.1130884, z: 0.000000014901161}
+      rotation: {x: -0.022275962, y: -0.7076469, z: -0.06984006, w: 0.7027532}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: BehindPawRight
+      parentName: BehindLegRight2
+      position: {x: -0.021553056, y: 1.748308, z: 0.09422977}
+      rotation: {x: 0.73596495, y: 0.00000010934321, z: -0.00000017709397, w: 0.6770197}
+      scale: {x: 1.0000002, y: 0.99999976, z: 0.9999999}
+    - name: BehindPawRight_end
+      parentName: BehindPawRight
+      position: {x: 0.00000010058446, y: 0.9499629, z: -0.0000006443283}
+      rotation: {x: 0.00000012293458, y: -3.5971223e-14, z: -2.453593e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BehindPawRight_end_end
+      parentName: BehindPawRight_end
+      position: {x: -0, y: 0.949963, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Body
+      position: {x: -0.0014242285, y: 6.580058, z: 0.4583351}
+      rotation: {x: -0.07056611, y: -0.00040311748, z: 0.00778296, w: 0.9974767}
+      scale: {x: 0.99999964, y: 1.0000002, z: 1.0000001}
+    - name: mouth
+      parentName: Head
+      position: {x: -0.00000021185889, y: 1.1666354, z: -0.67120737}
+      rotation: {x: 0.02508446, y: 1.3049793e-11, z: -0.000000005515082, w: 0.99968535}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: mouth_end
+      parentName: mouth
+      position: {x: -0.00000006270799, y: 1.4147334, z: -0.00000006071168}
+      rotation: {x: -0.0000000037252903, y: -4.3749726e-15, z: 8.6042284e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mouth_end_end
+      parentName: mouth_end
+      position: {x: -0, y: 1.414734, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LegLeft1
+      parentName: Body
+      position: {x: 1.7510736, y: 4.554886, z: -1.1011102}
+      rotation: {x: 0.55723494, y: -0.45636913, z: 0.53979075, w: -0.43570903}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: LegLeft2
+      parentName: LegLeft1
+      position: {x: -0.00000014156103, y: 2.1092162, z: -0.00000018253922}
+      rotation: {x: 0.121611856, y: -0.7060053, z: 0.08916768, w: 0.69196546}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: PawLeft
+      parentName: LegLeft2
+      position: {x: -0.08869072, y: 1.7530488, z: -0.038454335}
+      rotation: {x: 0.57273006, y: 0.002286436, z: 0.0029337727, w: 0.8197356}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999976}
+    - name: PawLeft_end
+      parentName: PawLeft
+      position: {x: 0.00000008633363, y: 0.949963, z: 0.00000012210535}
+      rotation: {x: -0.3386722, y: -0.008003829, z: -0.00026229784, w: 0.9408704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PawLeft_end_end
+      parentName: PawLeft_end
+      position: {x: -0, y: 0.94996303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LegRight1
+      parentName: Body
+      position: {x: -1.3717455, y: 4.506216, z: -1.10019}
+      rotation: {x: 0.5572349, y: -0.45636895, z: 0.5397908, w: -0.43570927}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+    - name: LegRight2
+      parentName: LegRight1
+      position: {x: -0.000000031664968, y: 2.1092165, z: 0.00000020489097}
+      rotation: {x: 0.121612094, y: -0.70600504, z: 0.089167714, w: 0.69196564}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: PawRight
+      parentName: LegRight2
+      position: {x: -0.088690855, y: 1.7530489, z: -0.03845412}
+      rotation: {x: 0.57273, y: 0.0022864295, z: 0.0029340799, w: 0.81973565}
+      scale: {x: 1, y: 0.9999997, z: 0.9999997}
+    - name: PawRight_end
+      parentName: PawRight
+      position: {x: -0.00000015103441, y: 0.94996333, z: -0.000000076092476}
+      rotation: {x: -0.000000007450582, y: -4.092149e-11, z: 9.769963e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PawRight_end_end
+      parentName: PawRight_end
+      position: {x: -0, y: 0.94996303, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
