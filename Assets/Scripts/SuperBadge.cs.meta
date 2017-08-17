@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: be6437c46150c48489d6ae86a889b80a
+timeCreated: 1491812950
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - none: {fileID: 21300000, guid: 54100c00624547a4d92a5cc95000e28a, type: 3}
+  - bronze: {fileID: 21300000, guid: d8e77b2eaaca72b429265c8c2a448fc7, type: 3}
+  - silver: {fileID: 21300000, guid: 5cf0b742ebada714a853172d2575aa83, type: 3}
+  - gold: {fileID: 21300000, guid: 8f1abb0fe1fdd9248b592bb9d599ad43, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
