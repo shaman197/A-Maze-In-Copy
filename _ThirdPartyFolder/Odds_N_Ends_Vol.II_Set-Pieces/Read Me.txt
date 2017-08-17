@@ -1,0 +1,31 @@
+Odds N Ends Series - Vol II Set-Pieces *****************************************
+
+Hi and thanks for purchasing this package.
+This second part of the Odds N Ends series is comprised of a series of Set-Pieces.
+I've tried to create some pieces that work well visually with filling in areas that 
+need lots of foliage quickly, but should still be engaging as well as fit within the
+environment.
+The Set-Pieces can be placed quickly and adjusted to your needs as moving, sizing and 
+rotating objects is a snap.
+You can also create your own Set-Pieces from the wide array of plants as you see fit.
+
+I hope you enjoy playing around with the possibilities as you create your own worlds.
+
+NOTES:
+The Custom Shader includes an Ambient Light Power, which allows for control of how much
+the Ambient light affects the foliage. I found that keeping it at a low level gives the 
+foliage a "thicker" feel.
+
+The Shader was created in Shader Forge and I have noticed Unity giving a warning that it 
+cannot build a Custom UI for the Shader. This seems to be a common error that is popping 
+up with Shader Forge created Shaders. But I have not found it to break anything or cause 
+issues.
+As is alwasy the case, if your Prefabs show up as the blue cube instead of the actual icons
+simply Right-Click within the folder and select " Reimport".
+
+If you have any issues or concerns please feel free to contact me at either thorAmes@gmail.com
+or denni@dtames.com.
+
+Again, thanks for your interest and happy creating
+
+Thorsten
